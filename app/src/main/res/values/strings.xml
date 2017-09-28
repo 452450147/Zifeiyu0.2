@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">子非鱼</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_dianzan">点赞</string>
+</resources>
