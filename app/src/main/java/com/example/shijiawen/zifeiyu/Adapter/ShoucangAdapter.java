@@ -1,12 +1,14 @@
-package com.example.shijiawen.zifeiyu;
+package com.example.shijiawen.zifeiyu.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.shijiawen.zifeiyu.R;
+import com.example.shijiawen.zifeiyu.bean.Shoucang;
 
 import java.util.List;
 

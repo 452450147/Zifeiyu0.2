@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity.MainActivity"
             android:label="子非鱼"
             android:theme="@style/AppTheme.NoActionBar" >
 
@@ -22,15 +22,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NewsDisplayActivity"
+        <activity android:name=".Activity.NewsDisplayActivity"
             android:label="子非鱼"
             android:theme="@style/AppTheme.NoActionBar"
             ></activity>
-        <activity android:name=".ShouCangJiaActivity"
+        <activity android:name=".Activity.ShouCangJiaActivity"
             android:label="我的收藏"
             android:theme="@style/AppTheme.NoActionBar"
             ></activity>
-        <activity android:name=".webActivity"
+        <activity android:name=".Activity.BianqianActivity"
+            android:label="便签"
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
+
+        <activity android:name=".Activity.Bianqian_noteActivity"
+        android:label="便签"
+        android:theme="@style/AppTheme.NoActionBar"
+        >
+
+        </activity>
+        <activity android:name=".Activity.webActivity"
             android:label="子非鱼网站"></activity>
     </application>
 

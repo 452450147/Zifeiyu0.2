@@ -1,4 +1,4 @@
-package com.example.shijiawen.zifeiyu;
+package com.example.shijiawen.zifeiyu.bean;
 
 import java.io.Serializable;
 

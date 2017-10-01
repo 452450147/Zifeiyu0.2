@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.shijiawen.zifeiyu.NewsDisplayActivity">
+    tools:context="com.example.shijiawen.zifeiyu.Activity.NewsDisplayActivity">
 
 
 
@@ -41,7 +41,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/gallery_thumb" />
+        android:src="@mipmap/ic_collection"
+        app:backgroundTint="#80b91a"
+        />
 
 
 

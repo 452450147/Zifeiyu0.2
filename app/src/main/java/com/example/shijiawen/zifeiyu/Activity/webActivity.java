@@ -1,9 +1,11 @@
-package com.example.shijiawen.zifeiyu;
+package com.example.shijiawen.zifeiyu.Activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.example.shijiawen.zifeiyu.R;
 
 /**
  * Created by shijiawen on 2017/9/23.

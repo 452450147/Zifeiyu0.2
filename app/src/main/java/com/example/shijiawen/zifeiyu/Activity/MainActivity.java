@@ -1,21 +1,14 @@
-package com.example.shijiawen.zifeiyu;
+package com.example.shijiawen.zifeiyu.Activity;
 
-import android.app.DownloadManager;
-import android.content.ClipData;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Message;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.support.v4.app.NotificationCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.view.menu.MenuView;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.util.Log;
-import android.util.Xml;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -25,33 +18,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
-import android.widget.AdapterView;
-import android.widget.Button;
-import android.widget.ListAdapter;
-import android.widget.ListView;
-import android.widget.TextView;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.jsoup.Jsoup;
-import org.jsoup.select.Elements;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Text;
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserFactory;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.StringReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.ProtocolException;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 //import java.util.logging.Handler;
@@ -60,7 +30,9 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 import android.os.Handler;
-;
+import com.example.shijiawen.zifeiyu.bean.News;
+import com.example.shijiawen.zifeiyu.Adapter.NewsAdapter;
+import com.example.shijiawen.zifeiyu.R;
 
 public class MainActivity extends AppCompatActivity
     implements NavigationView.OnNavigationItemSelectedListener {
@@ -198,7 +170,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(jinruShouCangJia);
 
         } else if (id == R.id.nav_slideshow) {
-
+            Intent jinruBianqian = new Intent(MainActivity.this,BianqianActivity.class);
+            startActivity(jinruBianqian);
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {

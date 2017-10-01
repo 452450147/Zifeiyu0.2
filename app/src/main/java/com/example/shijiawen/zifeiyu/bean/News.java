@@ -1,4 +1,4 @@
-package com.example.shijiawen.zifeiyu;
+package com.example.shijiawen.zifeiyu.bean;
 
 /**
  * Created by shijiawen on 2017/9/20.
